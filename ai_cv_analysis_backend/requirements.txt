@@ -1,0 +1,4 @@
+django-environ>=0.11.0
+openai>=1.0.0
+# optional: python-dotenv if you prefer
+# python-dotenv>=1.0.0

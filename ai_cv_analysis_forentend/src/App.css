@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@keyframes fade-slide {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.animate-fade-slide {
+  animation: fade-slide 0.5s ease-out forwards;
+}
+
+/* swiper-custom.css */
+.swiper-pagination-bullet {
+  background-color: #cbd5e1; /* inactive dots color (optional) */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #050e7f; /* active dot color */
+}

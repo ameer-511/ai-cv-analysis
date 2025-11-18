@@ -1,0 +1,136 @@
+# ======================================
+#              PYTHON / DJANGO
+# ======================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Django environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# VSCode Django debug file
+*.pid
+
+# ======================================
+#                NODE / REACT
+# ======================================
+
+# dependencies
+node_modules/
+
+# production build
+build/
+dist/
+
+# misc
+.npm
+.eslintcache
+.parcel-cache
+.cache/
+.log/
+
+# local env files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+
+# React Native (if irrelevant, still safe)
+.expo/
+*.keystore
+
+# Mac / Windows / Linux OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor folders
+.vscode/
+.idea/
+
+# ======================================
+#              GIT / OTHER
+# ======================================
+
+# Python virtual environment
+venv/
+ENV/
+env/
+
+# JetBrains IDE
+*.iml
+*.ipr
+*.iws
+
+# Backup / temp files
+*.bak
+*.tmp
+*.swp
+*.swo
+
